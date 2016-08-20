@@ -3,7 +3,7 @@ Sitemap generator command line application
 
 [![Build Status](https://travis-ci.org/danielemoraschi/sitemap-app.png?branch=master)](https://travis-ci.org/danielemoraschi/sitemap-app)
 
-This is an example app based on the library [dmoraschi/sitemap-common](https://github.com/danielemoraschi/sitemap-common/tree/v1.0.0)
+This is an example app based on the library [dmoraschi/sitemap-common](https://github.com/danielemoraschi/sitemap-common)
 
 Usage:
 -------------
