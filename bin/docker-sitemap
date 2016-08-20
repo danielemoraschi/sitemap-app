@@ -1,0 +1,5 @@
+#!/bin/bash
+
+declare DIR=$(cd "$(dirname "$0")" && pwd)
+
+sudo docker-compose -f $DIR/../docker/docker-compose.yml run --rm php php /data/bin/sitemap $*
