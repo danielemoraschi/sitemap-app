@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/danielemoraschi/sitemap-common.git",
-                "reference": "b78700c396c47a8f11b4e6a2884953ec018e9bc9"
+                "reference": "16cf8959c8c5e9bcff01fd242eba7b2e9110f94e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/danielemoraschi/sitemap-common/zipball/b78700c396c47a8f11b4e6a2884953ec018e9bc9",
-                "reference": "b78700c396c47a8f11b4e6a2884953ec018e9bc9",
+                "url": "https://api.github.com/repos/danielemoraschi/sitemap-common/zipball/16cf8959c8c5e9bcff01fd242eba7b2e9110f94e",
+                "reference": "16cf8959c8c5e9bcff01fd242eba7b2e9110f94e",
                 "shasum": ""
             },
             "require": {
@@ -54,7 +54,7 @@
                 "link",
                 "website"
             ],
-            "time": "2016-08-20 06:49:08"
+            "time": "2016-08-21 23:07:57"
         },
         {
             "name": "guzzlehttp/guzzle",
