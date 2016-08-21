@@ -27,5 +27,9 @@ Use with Docker:
 ```shell
 docker pull dmoraschi/sitemap-generator
 
-docker run --rm dmoraschi/sitemap-generator generate [-u|--url URL] [-d|--deep [DEEP]] [-p|--priority [PRIORITY]] [-f|--frequency [FREQUENCY]] [-o|--output [OUTPUT]]
+docker run --rm dmoraschi/sitemap-generator generate [options]
+```
+Example:
+```shell
+docker run --rm -v $(pwd):/tmp dmoraschi/sitemap-generator generate -uhttp://www.website.com -o/tmp/sitemap.xml
 ```
