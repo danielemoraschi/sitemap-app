@@ -21,3 +21,11 @@ Options:
   -o, --output[=OUTPUT]        The output filename. [default: "sitemap.xml"]
   -h, --help                   Display this help message
 ```
+
+Use with Docker:
+-------------
+```shell
+docker pull dmoraschi/sitemap-generator
+
+docker run --rm dmoraschi/sitemap-generator generate [-u|--url URL] [-d|--deep [DEEP]] [-p|--priority [PRIORITY]] [-f|--frequency [FREQUENCY]] [-o|--output [OUTPUT]]
+```
